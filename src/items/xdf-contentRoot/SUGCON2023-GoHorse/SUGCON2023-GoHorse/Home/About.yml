@@ -1,0 +1,68 @@
+﻿---
+ID: "1c9e04dc-1f13-40f8-a3ac-17c9d95b17b8"
+Parent: "548506a7-9014-45b9-b59f-8db56565c30f"
+Template: "f918f4db-fffc-4ee4-bac7-3fd64d68ef4c"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/About"
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0B9FC093-BD97-4B21-926E-D2968FCB6AB4}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{67A58BDB-EE67-48FF-899A-D90B11CE072C}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b060F7566-7F21-41AB-9B7F-A56FDBEB4FC6%7d%7c%7b74C29FF9-19D1-4A7A-A626-9317AE5F080C%7d%7c%7b931F6915-DF75-43C5-BE02-856DCABF5FAD%7d%7c%7bF38410C6-C43B-4926-819D-C408FA0898B0%7d%7c%7b46338888-E4D5-487B-9B9F-4EFF79B1E7A4%7d%7c%7b6C8C2231-00FE-4DFF-83C8-1860D766A70E%7d%7c%7b346F9B71-E614-4655-A217-9C4ED79CE060%7d%7c%7bA656AE7D-6AC8-4FB3-8B99-908C7AFF9E9B%7d%7c%7b444B3610-F182-4ED3-92F6-F0600E12B725%7d%7c%7b12460A51-1584-46FC-BE8C-2E4D661A642B%7d%7c%7b90E01492-2728-4826-98B9-1573D7DAFAED%7d%7c%7b7BEACE51-D4C6-4128-8509-4002E3DDDAD6%7d%7c%7bFE73DEDF-1390-4759-B736-9576D08DD2DB%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{D5BDF714-3CF3-436D-B757-FFB3D134561E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b7BC05C67-7AF5-4D32-AE41-16A8A57A5EEB%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230908T001931Z
+    - ID: "48924be3-bcb7-49f5-a38c-765478a53803"
+      Hint: Title
+      Value: About
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aca7e42c-479b-43c7-88d2-002c491ec2b5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230908T001938Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "039e7b1e-afba-4c24-b6a9-51fd6fdfbc29"
+Parent: "8fd93227-1497-410f-8bc8-7972a65b7112"
+Template: "8fd93227-1497-410f-8bc8-7972a65b7112"
+Path: "/sitecore/templates/Project/SUGCON2023-GoHorse/Partial Design Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8FD93227-1497-410F-8BC8-7972A65B7112}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230908T001901Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4c45413-9c24-4222-b802-1a7be32ee4e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230908T001904Z

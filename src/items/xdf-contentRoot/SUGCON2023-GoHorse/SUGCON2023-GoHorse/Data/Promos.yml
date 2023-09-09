@@ -1,0 +1,31 @@
+﻿---
+ID: "a77c4d32-a762-4cc9-9327-d44ed0a9790c"
+Parent: "73753447-3024-4e51-9cdb-ef9deba02ee5"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Data/Promos"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230908T001927Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74ce637c-f1bc-48ba-8853-a64034e2bcbc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230908T001927Z

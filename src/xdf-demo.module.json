@@ -1,0 +1,33 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "XDF.Demo",
+  "items": {
+    "includes": [
+      {
+        "name": "xdf-project-templates",
+        "path": "/sitecore/Templates/Project/SUGCON2023-GoHorse",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "xdf-project-placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/SUGCON2023-GoHorse",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "xdf-renderings",
+        "path": "/sitecore/layout/Renderings/Project/SUGCON2023-GoHorse",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "xdf-contentRoot",
+        "path": "/sitecore/content/SUGCON2023-GoHorse",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "xdf-media",
+        "path": "/sitecore/media library/Project/SUGCON2023-GoHorse",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

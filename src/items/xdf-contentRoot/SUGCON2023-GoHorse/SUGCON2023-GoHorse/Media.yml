@@ -1,0 +1,42 @@
+﻿---
+ID: "bec1a4fe-31a5-48ee-a900-3bdb37affdfe"
+Parent: "54987d0d-b5e7-4304-83ed-e7d21d5f565e"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Media"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Value: |
+    {5A0D2AF3-44A1-4419-BAA3-32BD7BE96E0F}
+    {9724698B-3D54-4C8A-8A54-B858C24D737B}
+    {B4D0BE7D-1DCD-4263-9EDE-9E6693DA8BCB}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A7F39EA2-9018-4622-891D-CB65627E5AF2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230908T001910Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61386eac-181e-4603-a96c-98f6e802e755"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230908T001937Z
