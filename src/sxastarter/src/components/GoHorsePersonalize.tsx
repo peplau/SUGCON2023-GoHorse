@@ -35,7 +35,7 @@ const GoHorsePersonalize = (): JSX.Element => {
               document.addEventListener("DOMContentLoaded", function() {
                 setTimeout(() => {
                   document.getElementById("qtdDatasources").innerHTML = __personalizeDatasources.length;
-                }, "5000");
+                }, "3000");
               });
             `,
           }}
