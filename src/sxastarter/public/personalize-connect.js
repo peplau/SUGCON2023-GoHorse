@@ -1,6 +1,6 @@
 ﻿function GetDatasource(experienceId, experienceValue) {
     debugger;
-    if (__personalizeDatasources == null || __personalizeDatasources.length)
+    if (__personalizeDatasources == null || __personalizeDatasources.length==0)
         return null;
     var datasource = null;
     for (var i = 0; i < __personalizeDatasources.length; i++) {
@@ -14,15 +14,16 @@
 
 function PopulateBlock(datasource) {
     debugger;
-    var containerId = datasource.container;
+    var containerId = datasource.UniqueId;
     var container = document.querySelector('[cdp-container="' + containerId + '"]');
     if (container == undefined)
         return;
 
-    Object.keys(datasource.fields).forEach(key => {
+    var datasourceItem = datasource.DataSource;
+    Object.keys(datasourceItem.fields).forEach(key => {
         var subcontainer = container.querySelector('[cdp-field="' + key + '"]');
         if (subcontainer != undefined) {
-            var value = datasource.fields[key];
+            var value = datasourceItem.fields[key];
 
             if (subcontainer.tagName.toLowerCase() == "img") {
                 if (value.src != "")
@@ -50,3 +51,29 @@ function PopulateBlock(datasource) {
 
     });
 }
+
+// Initialize the engage variable
+var engage = undefined;
+
+// Create and inject the <script> tag into the HTML
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+s.src = "https://d1mj578wat5n4o.cloudfront.net/sitecore-engage-v.1.4.0.min.js";
+var x = document.querySelector("script");
+x.parentNode.insertBefore(s, x);    
+
+// Initialize the Engage SDK
+s.addEventListener("load", async () => {
+    var settings = {
+        clientKey: "b8dfe13eec6770da21a64f765e118af5",
+        targetURL: "https://api-engage-us.sitecorecloud.io",
+        pointOfSale: "SUGCON2023-GoHorse",
+        cookieDomain: window.location.host.replace(/^www./, ''),
+        cookieExpiryDays: 365,
+        forceServerCookieMode: false,
+        includeUTMParameters: true,
+        webPersonalization: true /* boolean or object. See Settings object for all options. Default: false */
+    };
+    engage = await window.Engage.init(settings);                
+});

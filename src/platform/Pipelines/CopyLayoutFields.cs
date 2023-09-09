@@ -8,6 +8,7 @@ using Sitecore.Data.Fields;
 using System.Linq;
 using Sitecore.Resources.Media;
 using Sitecore;
+using Sitecore.Data;
 
 namespace XmCloudSXAStarter.Pipelines
 {
@@ -65,7 +66,11 @@ namespace XmCloudSXAStarter.Pipelines
                 // Get rendering (parent) to retrieve the UniqueId
                 var renderingNode = GetRenderingAncestor(conditionNode);
                 if (renderingNode != null)
+                {
                     uniqueId = renderingNode.Attributes["uid"].Value;
+                    if (!string.IsNullOrEmpty(uniqueId))
+                        uniqueId = uniqueId.ToLower().Replace("{", "").Replace("}", "");
+                }
 
                 // Get sibling action to retrieve the DatasourceItem
                 var actionNode = GetActionSibling(conditionNode.ParentNode);
