@@ -116,7 +116,7 @@ namespace XmCloudSXAStarter.Pipelines
 
             foreach (Field field in item.Fields.Cast<Field>())
             {
-                if (fields.ContainsKey(field.Key) || field.Key.StartsWith("__"))
+                if (fields.ContainsKey(field.Name) || field.Name.StartsWith("__"))
                     continue;
 
                 var type = FieldTypeManager.GetField(field);
@@ -124,15 +124,15 @@ namespace XmCloudSXAStarter.Pipelines
                 if (type is ImageField)
                 {
                     var imgData = GetImageField((ImageField)field);
-                    fields.Add(field.Key, imgData);
+                    fields.Add(field.Name, imgData);
                 }
                 else if (type is LinkField)
                 {
                     var linkData = GetLinkField((LinkField)type);
-                    fields.Add(field.Key, linkData);
+                    fields.Add(field.Name, linkData);
                 }
                 else
-                    fields.Add(field.Key, field.Value);
+                    fields.Add(field.Name, field.Value);
             }
 
             return ret;
