@@ -1,0 +1,57 @@
+﻿---
+ID: "ece3bcf1-cd55-41d9-917a-89e21bf4de72"
+Parent: "d20d4630-7bd3-49c0-9cd7-b4203dc95418"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/About/Data/Promo Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        <span style="color: #374151; background-color: #f7f7f8;">Radical sports, often referred to as extreme sports, represent a genre of athletic activities that push the boundaries of both human capability and traditional athletic events. Characterized by a high level of adrenaline and often an element of danger, these sports such as skydiving, BMX biking, parkour, and big-wave surfing, captivate audiences and participants alike with their intense, sometimes jaw-dropping stunts and feats. Unlike mainstream sports that are often regulated within standardized environments like courts or tracks, extreme sports frequently take advantage of natural settings&mdash;rugged mountainsides for downhill mountain biking, tumultuous sea waves for surfing, or sheer cliffs for base jumping&mdash;adding an unpredictable variable that heightens the stakes. They attract a unique breed of athletes, who thrive on risk-taking, a deep connection with their environment, and an unquenchable thirst for pushing the envelope. As these sports gain wider recognition, they challenge our notions of athleticism and competition, demonstrating that the spirit of human adventure knows no bounds.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230909T220537Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: "<strong>Radical sports</strong>, often known as <strong>extreme sports</strong>, push the boundaries of what is conventionally deemed possible, challenging enthusiasts to face their fears and test the limits of their abilities. These sports, ranging from skydiving and BASE jumping to parkour and big wave surfing, are not for the faint-hearted. The <strong>adrenaline rush </strong>derived from such activities is <strong>incomparable</strong>, providing participants with an <strong>intoxicating blend of excitement</strong>, risk, and sheer determination. As they continually redefine the edges of <strong>human physical </strong>potential and <strong>mental resilience</strong>, radical sports not only offer a form of escapism from the mundanity of everyday life but also foster a community of like-minded daredevils united by their passion for the extreme."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "739c6cc2-0031-463d-9599-13478fd50ee3"
+      Hint: PromoIcon2
+      Value: |
+        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5906dae0-271e-4f58-9ecd-1e568944a7c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+      Hint: PromoText3
+      Value: |
+        <span style="color: #374151; background-color: #f7f7f8;">Radical sports, often referred to as extreme sports, represent a thrilling subset of physical activities that push human boundaries and challenge the conventions of traditional sports. Characterized by their high-adrenaline nature, these sports often involve intense speeds, daring heights, and a significant level of inherent risk. From skydiving to mountain biking on rugged terrains, from big wave surfing to BASE jumping off cliff faces, participants in these activities relentlessly pursue the next adrenaline rush, driven by a blend of passion, fear, and the indomitable human spirit. The rise of radical sports has not only influenced the way we perceive athletic boundaries but has also spawned a global subculture that values resilience, innovation, and the transcendence of limits.</span>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230909T221513Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{548506A7-9014-45B9-B59F-8DB56565C30F}" />
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" />
