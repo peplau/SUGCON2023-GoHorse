@@ -38,7 +38,6 @@ const CdpPageView = (): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
-      webPersonalization: true,
     });
     engage.pageView({
       channel: 'WEB',
