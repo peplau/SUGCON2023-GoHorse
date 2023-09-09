@@ -1,0 +1,17 @@
+{
+    "namespace": "PersonalizeConnect",
+    "items": {
+        "includes": [
+			{
+				"name": "PersonalizeConnect.Tags",
+				"path": "/sitecore/system/Settings/Rules/Definitions/Tags/Personalize Connect"
+			},{
+				"name": "PersonalizeConnect.Elements",
+				"path": "/sitecore/system/Settings/Rules/Definitions/Elements/Personalize Connect"
+			},{
+				"name": "PersonalizeConnect.ConditionalRenderings",
+				"path": "/sitecore/system/Settings/Rules/Conditional Renderings/Tags/Default"
+			}			
+		]
+	}
+}

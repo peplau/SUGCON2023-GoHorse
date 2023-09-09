@@ -1,15 +1,15 @@
 ﻿---
-ID: "48924be3-bcb7-49f5-a38c-765478a53803"
+ID: "ed2f9dab-999d-4e70-b8cf-fcd848a1e7bf"
 Parent: "52e1d156-b364-4ea3-bcf8-83e6e14581de"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/SUGCON2023-GoHorse/Page/Content/Title"
+Path: "/sitecore/templates/Project/SUGCON2023-GoHorse/Page/Content/PersonalizeDatasources"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1
+  Value: 3
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230908T001907Z
+      Value: 20230909T003842Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,7 +28,7 @@ Languages:
         sitecore\rpeplau@arke.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f5beab82-b443-4069-8d99-a0cf49063585"
+      Value: "95b795fe-5eff-4eb5-9773-14dd69e9388a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
