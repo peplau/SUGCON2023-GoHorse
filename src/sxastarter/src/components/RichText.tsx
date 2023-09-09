@@ -16,7 +16,7 @@ export type RichTextProps = {
 };
 
 export const Default = (props: RichTextProps): JSX.Element => {
-  var uid = props.rendering.uid;
+  const uid = props.rendering.uid;
 
   const text = props.fields ? (
     <JssRichText field={props.fields.Text} />
