@@ -3,7 +3,6 @@ import {
   Image as JssImage,
   Link as JssLink,
   RichText as JssRichText,
-  ComponentRendering,
   ImageField,
   Field,
   LinkField,
@@ -19,7 +18,6 @@ interface Fields {
 type PromoProps = {
   params: { [key: string]: string };
   fields: Fields;
-  rendering: ComponentRendering;
 };
 
 const PromoDefaultComponent = (props: PromoProps): JSX.Element => (
@@ -34,23 +32,19 @@ export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
-      <div
-        className={`component promo ${props.params.styles}`}
-        id={id ? id : undefined}
-        cdp-container={`${props.rendering.uid}`}
-      >
+      <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
         <div className="component-content">
           <div className="field-promoicon">
-            <JssImage field={props.fields.PromoIcon} cdp-field="PromoIcon" />
+            <JssImage field={props.fields.PromoIcon} />
           </div>
           <div className="promo-text">
             <div>
               <div className="field-promotext">
-                <JssRichText field={props.fields.PromoText} cdp-field="PromoText" />
+                <JssRichText field={props.fields.PromoText} />
               </div>
             </div>
             <div className="field-promolink">
-              <JssLink field={props.fields.PromoLink} cdp-field="PromoLink" />
+              <JssLink field={props.fields.PromoLink} />
             </div>
           </div>
         </div>
@@ -65,31 +59,19 @@ export const WithText = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
-      <div
-        className={`component promo ${props.params.styles}`}
-        id={id ? id : undefined}
-        cdp-container={`${props.rendering.uid}`}
-      >
+      <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
         <div className="component-content">
           <div className="field-promoicon">
-            <JssImage field={props.fields.PromoIcon} cdp-field="PromoIcon" />
+            <JssImage field={props.fields.PromoIcon} />
           </div>
           <div className="promo-text">
             <div>
               <div className="field-promotext">
-                <JssRichText
-                  className="promo-text"
-                  field={props.fields.PromoText}
-                  cdp-field="PromoText"
-                />
+                <JssRichText className="promo-text" field={props.fields.PromoText} />
               </div>
             </div>
             <div className="field-promotext">
-              <JssRichText
-                className="promo-text"
-                field={props.fields.PromoText2}
-                cdp-field="PromoText2"
-              />
+              <JssRichText className="promo-text" field={props.fields.PromoText2} />
             </div>
           </div>
         </div>
