@@ -15,6 +15,7 @@
 function PopulateBlock(datasource) {
     debugger;
     var containerId = datasource.UniqueId;
+    var edgeImagePrefix = "https://edge.sitecorecloud.io/arkesystems1-sugcon2023g8f87-dev-9d74";
     var container = document.querySelector('[cdp-container="' + containerId + '"]');
     if (container == undefined)
         return;
@@ -24,10 +25,9 @@ function PopulateBlock(datasource) {
         var subcontainer = container.querySelector('[cdp-field="' + key + '"]');
         if (subcontainer != undefined) {
             var value = datasourceItem.fields[key];
-
             if (subcontainer.tagName.toLowerCase() == "img") {
                 if (value.src != "")
-                    subcontainer.src = value.src;
+                    subcontainer.src = edgeImagePrefix + value.src;
                 if (value.alt != "")
                     subcontainer.alt = value.alt;
             }
