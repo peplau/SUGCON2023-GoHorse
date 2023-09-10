@@ -1,0 +1,45 @@
+﻿---
+ID: "037d3d1f-7096-45c9-bc0a-e93844f71f28"
+Parent: "93a98f6f-bc09-4085-bcb7-468586d01712"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - Night"
+BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BB1BAB02-35FC-469D-B037-EB036A54EB49}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230908T001934Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Nocturnal Threads: The Mysterious Allure of Skate &amp; Streetwear (Night)</h3>
+        <p><span style="background-color: #f7f7f8; color: #374151; color: #374151; background-color: #f7f7f8;">When darkness blankets the city, the neon lights and moon's glow illuminate an enigmatic dance of skaters, their movements echoing in the hush of the night. Streetwear, in this nocturnal setting, takes on a different persona&mdash;darker palettes, reflective materials, and edgy designs come to the forefront, juxtaposing the silent night with bold fashion statements. The skateboarding community thrives under the cloak of darkness, their tricks and styles becoming fleeting spectacles amidst the city's pulsating nightlife. In this realm of shadows and lights, the fusion of skate and streetwear is not just about fashion, but an expression of the city's heart, beating steadfastly into the night.</span></p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b20faf1-8b41-4681-ae7e-b5e8a0a99711"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230910T151219Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{5AE37871-3E2A-4220-9D61-6D9FFB792D47}" />

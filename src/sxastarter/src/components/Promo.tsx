@@ -76,8 +76,12 @@ export const WithText = (props: PromoProps): JSX.Element => {
           </div>
           <div className="promo-text">
             <div>
-              <div className="field-promotext" cdp-field="PromoText">
-                <JssRichText className="promo-text" field={props.fields.PromoText} />
+              <div className="field-promotext">
+                <JssRichText
+                  className="promo-text"
+                  field={props.fields.PromoText}
+                  cdp-field="PromoText"
+                />
               </div>
             </div>
             <div className="field-promotext">

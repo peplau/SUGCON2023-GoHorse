@@ -1,5 +1,4 @@
 ﻿function GetDatasource(experienceId, experienceValue) {
-    debugger;
     if (__personalizeDatasources == null || __personalizeDatasources.length==0)
         return null;
     var datasource = null;
@@ -13,7 +12,6 @@
 }
 
 function PopulateBlock(datasource) {
-    debugger;
     var containerId = datasource.UniqueId;
     var edgeImagePrefix = "https://edge.sitecorecloud.io/arkesystems1-sugcon2023g8f87-dev-9d74";
     var container = document.querySelector('[cdp-container="' + containerId + '"]');

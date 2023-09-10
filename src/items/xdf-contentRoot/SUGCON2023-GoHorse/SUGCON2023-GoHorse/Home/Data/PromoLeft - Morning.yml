@@ -2,7 +2,7 @@
 ID: "91e10841-d743-4fc0-bacb-f2eb484d43e8"
 Parent: "93a98f6f-bc09-4085-bcb7-468586d01712"
 Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
-Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - VAR1"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - Morning"
 BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -19,8 +19,8 @@ Languages:
     - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
       Hint: PromoText
       Value: |
-        <h3>The Evolution of Streetwear: Today's Intersection of Fashion, Culture, and Identity (VAR1)</h3>
-        <p><span style="background-color: #f7f7f8; color: #374151;">Streetwear continues to redefine the fashion landscape, offering an ever-evolving blend of high fashion, urban culture, and countercultural elements. No longer confined to a specific subculture or demographic, today's streetwear amalgamates influences ranging from skateboarding and hip-hop to avant-garde design and global traditions. Brands are adopting sustainable practices, artists are pushing boundaries through collaborations, and consumers are driving the market toward inclusivity and diversity. In this dynamic milieu, streetwear serves as a canvas for self-expression, cultural dialogue, and sartorial innovation.</span></p>
+        <h3><span style="color: var(--tw-prose-bold); background-color: #f7f7f8; border: 0px solid #d9d9e3;">Dawn Threads: The Convergence of Skate &amp; Streetwear</span> (Morning)</h3>
+        <p><span style="background-color: #f7f7f8; color: #374151; color: #374151; background-color: #f7f7f8;">As the sun casts its first golden rays, the urban landscape comes alive with the unmistakable rhythm of skateboards and the vibrant tapestry of streetwear. The early morning hours, when the world is still shaking off its slumber, have become a canvas for skaters and fashion enthusiasts alike. In this serene ambiance, the raw energy of skate culture melds seamlessly with the audacious designs of streetwear, creating a dance of motion and style. With every ollie and kickflip, skaters donning the latest trends breathe life into the city, making dawn not just a time of day, but a fashion statement.</span></p>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,15 +31,15 @@ Languages:
         sitecore\rpeplau@arke.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e8970b0-d74c-4cc4-ab06-c520cbe3b2fb"
+      Value: "301031db-76a4-43f6-8490-5e42d8bdd3ff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rpeplau@arke.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230910T005652Z
+      Value: 20230910T150758Z
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
-        <image mediaid="{0D9C2383-BC1F-48EF-81E4-DD8307BC6E55}" />
+        <image mediaid="{45676645-A831-4351-8FFC-B2D2696D22CB}" />
