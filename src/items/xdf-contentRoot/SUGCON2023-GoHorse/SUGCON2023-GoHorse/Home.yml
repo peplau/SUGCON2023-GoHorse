@@ -67,6 +67,69 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C7D0873-BC89-405A-A8D2-0A50E6255492}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{42BC14D4-8416-466D-AE03-0E18E30F9A74}"
+                    s:name="VAR2">
+                    <conditions>
+                      <condition
+                        uid="70B3F02ED8B343B7AF5A5AB8B1817616"
+                        s:id="{8DCAA413-D590-4B02-B471-66E62ED57A0D}"
+                        s:experienceId="346c3162-7232-435c-b0f6-a286e65cd5b3"
+                        s:experienceValue="2" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A33D6194A8154AC9A641B8EAE01B32AB"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="local:/Data/PromoLeft - VAR2" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{7D952F3E-EFA9-428A-8483-4189664BEB63}"
+                    s:name="VAR1">
+                    <conditions>
+                      <condition
+                        uid="C407D795417742BC846EA314A2071C17"
+                        s:id="{8DCAA413-D590-4B02-B471-66E62ED57A0D}"
+                        s:experienceId="346c3162-7232-435c-b0f6-a286e65cd5b3"
+                        s:experienceValue="1" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="78D28BF704C24243BD69691B7B353676"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="local:/Data/PromoLeft - VAR1" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="998D2AB629C94907A3E5D2197896CFCB"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230908T001910Z
@@ -86,11 +149,15 @@ Languages:
         sitecore\rpeplau@arke.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9244a9e0-e9bd-4580-93d8-8846c8439ec8"
+      Value: "35ca9270-a0e0-4b80-bea4-508b447058bc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rpeplau@arke.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230908T001938Z
+      Value: 20230910T011505Z
+    - ID: "ed2f9dab-999d-4e70-b8cf-fcd848a1e7bf"
+      Hint: PersonalizeDatasources
+      Value: |
+        [{"UniqueId":"8c7d0873-bc89-405a-a8d2-0a50e6255492","ExperienceId":"346c3162-7232-435c-b0f6-a286e65cd5b3","ExperienceValue":"2","DataSource":{"id":"{6AF545F2-A6C5-451D-8E1F-9E9D333E46AF}","path":"/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - VAR2","name":"PromoLeft - VAR2","displayName":"PromoLeft - VAR2","version":"1","language":"en","fields":{"PromoText":"<h3><span style=\"background-color: #f7f7f8; border: 0px solid #d9d9e3; color: var(--tw-prose-bold);\">Urban Echo: The Evolution of Streetwear</span> (VAR2)</h3>\n<p><span style=\"background-color: #f7f7f8; color: #374151;\">In the ever-evolving world of fashion, streetwear continues to make a bold statement, merging the gritty allure of urban life with contemporary aesthetics. Today's streetwear is a kaleidoscope of influences &ndash; from skate and hip-hop cultures to high-end designer collaborations. As sustainability and inclusivity take center stage, the latest wave of streetwear embraces upcycled materials and diverse representation, proving once again that this style is not just a trend, but a reflection of generational shifts and the voice of the streets.</span></p>","PromoIcon":{"src":"/sitecore/shell/-/media/Feature/JSS-Experience-Accelerator/Basic-Site/entenda-por-que-o-skate-e-considerado-um-esporte1.jpeg","alt":""}}}},{"UniqueId":"8c7d0873-bc89-405a-a8d2-0a50e6255492","ExperienceId":"346c3162-7232-435c-b0f6-a286e65cd5b3","ExperienceValue":"1","DataSource":{"id":"{91E10841-D743-4FC0-BACB-F2EB484D43E8}","path":"/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - VAR1","name":"PromoLeft - VAR1","displayName":"PromoLeft - VAR1","version":"1","language":"en","fields":{"PromoText":"<h3>The Evolution of Streetwear: Today's Intersection of Fashion, Culture, and Identity (VAR1)</h3>\n<p><span style=\"background-color: #f7f7f8; color: #374151;\">Streetwear continues to redefine the fashion landscape, offering an ever-evolving blend of high fashion, urban culture, and countercultural elements. No longer confined to a specific subculture or demographic, today's streetwear amalgamates influences ranging from skateboarding and hip-hop to avant-garde design and global traditions. Brands are adopting sustainable practices, artists are pushing boundaries through collaborations, and consumers are driving the market toward inclusivity and diversity. In this dynamic milieu, streetwear serves as a canvas for self-expression, cultural dialogue, and sartorial innovation.</span></p>","PromoIcon":{"src":"/sitecore/shell/-/media/Feature/JSS-Experience-Accelerator/Basic-Site/banner-image.jpg","alt":""}}}}]

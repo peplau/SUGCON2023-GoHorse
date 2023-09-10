@@ -1,8 +1,8 @@
 ﻿---
-ID: "0354d1b1-29e1-401b-a88b-a71db0e160fc"
+ID: "6af545f2-a6c5-451d-8e1f-9e9d333e46af"
 Parent: "93a98f6f-bc09-4085-bcb7-468586d01712"
 Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
-Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft"
+Path: "/sitecore/content/SUGCON2023-GoHorse/SUGCON2023-GoHorse/Home/Data/PromoLeft - VAR2"
 BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -19,8 +19,8 @@ Languages:
     - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
       Hint: PromoText
       Value: |
-        <h3>Urban Elegance: The Evolution of Streetwear (DEFAULT)</h3>
-        <p><span style="background-color: #f7f7f8; color: #374151;">The fashion world has witnessed the meteoric rise of streetwear, a style that seamlessly blends urban aesthetics with high-fashion elements. No longer confined to the alleyways and skate parks from which it sprang, today's streetwear is a testament to versatility and ingenuity. Iconic logos, oversized silhouettes, and a deliberate mix of haute couture and casual have made it a dominant force in the global fashion landscape. As designers and streetwear enthusiasts push the envelope, this style promises to continually redefine contemporary fashion, ensuring its place on both the streets and the runway.</span></p>
+        <h3><span style="background-color: #f7f7f8; border: 0px solid #d9d9e3; color: var(--tw-prose-bold);">Urban Echo: The Evolution of Streetwear</span> (VAR2)</h3>
+        <p><span style="background-color: #f7f7f8; color: #374151;">In the ever-evolving world of fashion, streetwear continues to make a bold statement, merging the gritty allure of urban life with contemporary aesthetics. Today's streetwear is a kaleidoscope of influences &ndash; from skate and hip-hop cultures to high-end designer collaborations. As sustainability and inclusivity take center stage, the latest wave of streetwear embraces upcycled materials and diverse representation, proving once again that this style is not just a trend, but a reflection of generational shifts and the voice of the streets.</span></p>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,15 +31,15 @@ Languages:
         sitecore\rpeplau@arke.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30baa165-d496-4a0c-8dfd-2d1e6c7f19de"
+      Value: "54633ad2-163b-4926-8d81-6157498e3684"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rpeplau@arke.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230909T232814Z
+      Value: 20230910T011453Z
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
-        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" />
+        <image mediaid="{016957A1-5ADC-4B22-92E2-5420B95EE45D}" />
