@@ -27,7 +27,7 @@ function PopulateBlock(datasource) {
             var value = datasourceItem.fields[key];
             if (subcontainer.tagName.toLowerCase() == "img") {
                 if (value.src != "")
-                    subcontainer.src = edgeImagePrefix + value.src;
+                    subcontainer.src = edgeImagePrefix + value.src.replace("sitecore/shell/-/","");
                 if (value.alt != "")
                     subcontainer.alt = value.alt;
             }
